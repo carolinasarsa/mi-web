@@ -1,0 +1,226 @@
+header .menu-sup ul, header .fondo-logo {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+header .menu a, header .menu-sup ul li a {
+  text-decoration: none;
+  list-style: none;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+header {
+  position: sticky;
+  top: 0px;
+  z-index: 10;
+}
+header .parrafo-uno {
+  color: #fd8103;
+  background-color: #EEEEEE;
+  width: 100%;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  margin: 0%;
+  padding: 0%;
+}
+header .logo {
+  height: 45px;
+}
+header .fondo-logo {
+  background-color: #1b1b1b;
+  padding: 15px 0;
+  justify-content: space-around;
+}
+header .oferta-sup {
+  display: flex;
+  color: white;
+  font-family: "Nunito", sans-serif;
+}
+header .link-ofertas {
+  text-decoration: none;
+}
+header .menu-sup ul {
+  list-style-type: none;
+  justify-content: flex-end;
+  font-family: "Nunito", sans-serif;
+  background-color: #fd8103;
+  margin-bottom: 0px;
+}
+header .menu-sup ul li a {
+  padding: 1em;
+  color: white;
+}
+header .menu {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(to bottom, grey, white);
+  margin-bottom: 0px;
+}
+header .menu a {
+  font-size: 20px;
+  margin: 10px 10px;
+  font-weight: 500;
+  color: #1b1b1b;
+  font-family: "Nunito", sans-serif;
+  padding: 5px;
+  display: inline-block;
+}
+
+header .fondo-logo, header .menu-sup ul {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+header .menu-sup ul li a, header .menu a {
+  text-decoration: none;
+  list-style: none;
+}
+
+body section .carro {
+  display: flex;
+  justify-content: center;
+}
+body section .imagencarousel {
+  height: 32rem;
+}
+body section .fit-item {
+  height: 14rem;
+  transition-duration: 0.1s;
+}
+body section .fit-item:hover {
+  transform: scale(1.1);
+  transition: all;
+  transition-duration: 0.1s;
+}
+body .section-tarjetas {
+  background-color: whitesmoke;
+  margin-top: 5%;
+}
+body .section-tarjetas .card {
+  width: 14rem;
+}
+
+header .fondo-logo, header .menu-sup ul {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+header .menu-sup ul li a, header .menu a {
+  text-decoration: none;
+  list-style: none;
+}
+
+footer {
+  text-align: center;
+  font-size: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding-top: 5%;
+}
+footer a {
+  text-decoration: none;
+}
+footer suscripcionFooter {
+  padding-bottom: 6%;
+}
+footer .quienesSomos {
+  font-size: 30px;
+  margin-top: 10%;
+  font-family: "Open Sans", sans-serif;
+}
+footer .texto-somos {
+  display: inline-block;
+  text-align: center;
+  font-size: 20px;
+  width: 90%;
+  margin-top: 5%;
+  padding-bottom: 10%;
+  font-family: "Nunito", sans-serif;
+}
+footer #quienes-somos:hover {
+  background-color: #1b1b1b;
+  color: white;
+}
+footer #copyRight {
+  font-size: 10px;
+  padding-top: 2%;
+}
+footer .redes-sociales {
+  padding-top: 40px;
+}
+footer .redes-sociales ul li {
+  list-style: none;
+}
+footer .redes-sociales .redes {
+  margin: 2px;
+  height: 40px;
+  width: 40px;
+  padding: 5px;
+}
+
+header .fondo-logo, header .menu-sup ul {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+header .menu-sup ul li a, header .menu a {
+  text-decoration: none;
+  list-style: none;
+}
+
+body .sucursal {
+  font-size: 50px;
+  text-align: center;
+  padding: 40px 40px 40px 40px;
+  font-family: "Nunito", sans-serif;
+}
+body .sucursal-sub {
+  text-align: center;
+  padding: 40px 40px 40px 40px;
+  font-family: "Nunito", sans-serif;
+  color: #fd8103;
+}
+body .sucursal-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+header .fondo-logo, header .menu-sup ul {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+header .menu-sup ul li a, header .menu a {
+  text-decoration: none;
+  list-style: none;
+}
+
+section .parrafo-section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  color: whitesmoke;
+  background-image: url("https://i.ibb.co/0Dv62xL/img-sections.jpg");
+  font-weight: 700;
+}
+section .card {
+  margin-bottom: 2rem;
+  width: 14rem;
+}
+
+/*# sourceMappingURL=style.css.map */

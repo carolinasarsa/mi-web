@@ -1,0 +1,34 @@
+@import '../base/listas';
+@import '../base/extends';
+@import '../base/variables';
+
+
+body{
+    section{
+        .carro{
+            display: flex;
+            justify-content:nth($justify,1);
+        }
+        .imagencarousel{
+            height: 32rem;
+        }
+        .fit-item{
+            height: 14rem;
+            transition-duration: 0.1s;
+        }
+        .fit-item:hover{
+            transform: scale(1.1);
+            transition:all;
+            transition-duration: 0.1s;
+            
+        }
+    }
+    .section-tarjetas{
+            background-color: nth($colores,5);
+            margin-top: 5%;
+            .card{
+                width: 14rem;
+            }
+        }
+
+}

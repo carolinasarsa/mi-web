@@ -1,0 +1,73 @@
+@import '../base/listas';
+@import '../base/extends';
+@import '../base/variables';
+    *{
+    margin:0%;
+    padding: 0%;
+    }
+    header{
+        position: sticky;
+        top:0px;
+        z-index:10;
+    
+    .parrafo-uno{
+        color: nth($colores, 1);
+        background-color: nth($colores,2);
+        width: 100%;
+        text-align: nth($justify,1);
+        font-family:$fuentenunito;
+        margin:0%;
+        padding: 0%;
+    }
+    .logo{
+        height: 45px;
+    }
+    .fondo-logo{
+        background-color: nth($colores,3);
+        padding: 15px 0;
+        @extend %flex;
+        justify-content:nth($justify,2);
+    }
+    .oferta-sup{
+        display:flex;
+        color: nth($colores,4);
+        font-family: $fuentenunito;
+    }
+    .link-ofertas{
+        text-decoration: none;
+    }
+    
+        .menu-sup{
+        ul{ @extend %flex;
+            list-style-type: none;
+            justify-content: nth($justify,3);
+            font-family: $fuentenunito;
+            background-color: nth($colores,1);
+            margin-bottom: 0px;
+    li{
+        a{ @extend %links-a;
+            padding: 1em;
+            color: nth($colores,4);
+        }
+    }
+    }
+        }
+    .menu{
+    background-color: nth($colores,5);
+    display: flex;
+    justify-content:nth($justify,1);
+    background-image: linear-gradient(to bottom, grey , white);
+    margin-bottom: 0px;
+        a{
+        font-size: 20px;
+        margin: 10px 10px ;
+        font-weight: 500;
+        @extend %links-a;
+        color: nth($colores,3);
+        font-family: $fuentenunito;
+        padding: 5px;
+        display: inline-block;
+        }
+    }
+    }
+

@@ -1,0 +1,20 @@
+@import '../base/listas';
+@import '../base/extends';
+@import '../base/variables';
+
+
+section{
+    .parrafo-section{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        color:nth($colores,5);
+        background-image: url("https://i.ibb.co/0Dv62xL/img-sections.jpg");
+       font-weight: 700;
+}
+.card{
+    margin-bottom: 2rem;
+    width: 14rem;
+}
+}

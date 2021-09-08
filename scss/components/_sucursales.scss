@@ -1,0 +1,23 @@
+@import '../base/listas';
+@import '../base/extends';
+@import '../base/variables';
+
+
+body{
+    .sucursal{
+        font-size: 50px;
+        text-align:nth($justify,1);
+        padding:40px 40px 40px 40px;
+        font-family: $fuentenunito;
+    }
+    .sucursal-sub{
+        text-align:nth($justify,1);
+        padding: 40px 40px 40px 40px ;
+        font-family:$fuentenunito;
+        color:nth($colores,1);
+    }
+    .sucursal-container{
+        display: flex;
+        justify-content: nth($justify,2);
+    }
+}
