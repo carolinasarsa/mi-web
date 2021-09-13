@@ -2,15 +2,24 @@
 @import '../base/extends';
 @import '../base/variables';
 
+@media only screen and (max-width: 576px){
+    div.oferta a{
+        display: none;
+    }
+    nav.menu-sup ul li a {
+        display:block;
+    }
+    div a .logo{
+        display: none;
+    }
+}
+
 
 body{
     section{
         .carro{
             display: flex;
             justify-content:nth($justify,1);
-        }
-        .imagencarousel{
-            height: 32rem;
         }
         .fit-item{
             height: 14rem;
@@ -26,9 +35,10 @@ body{
     .section-tarjetas{
             background-color: nth($colores,5);
             margin-top: 5%;
+           
             .card{
-                width: 14rem;
+                
             }
-        }
+            }
 
 }

@@ -1,6 +1,17 @@
 @import '../base/listas';
 @import '../base/extends';
 @import '../base/variables';
+@media only screen and (max-width: 576px){
+    div.oferta a{
+        display: none;
+    }
+    nav.menu-sup ul li a{
+        display:block;
+    }
+    div a .logo{
+        display:none;
+    }
+}
 
 
 section{

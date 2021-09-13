@@ -10,6 +10,19 @@ header .menu a, header .menu-sup ul li a {
   list-style: none;
 }
 
+@media only screen and (max-width: 576px) {
+  div.oferta a {
+    display: none;
+  }
+
+  nav.menu-sup ul li a {
+    display: block;
+  }
+
+  div a .logo {
+    display: none;
+  }
+}
 * {
   margin: 0%;
   padding: 0%;
@@ -30,11 +43,12 @@ header .parrafo-uno {
   padding: 0%;
 }
 header .logo {
-  height: 45px;
+  height: 40px;
 }
 header .fondo-logo {
   background-color: #1b1b1b;
-  padding: 15px 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
   justify-content: space-around;
 }
 header .oferta-sup {
@@ -65,11 +79,9 @@ header .menu {
 }
 header .menu a {
   font-size: 20px;
-  margin: 10px 10px;
   font-weight: 500;
   color: #1b1b1b;
   font-family: "Nunito", sans-serif;
-  padding: 5px;
   display: inline-block;
 }
 
@@ -85,12 +97,22 @@ header .menu-sup ul li a, header .menu a {
   list-style: none;
 }
 
+@media only screen and (max-width: 576px) {
+  div.oferta a {
+    display: none;
+  }
+
+  nav.menu-sup ul li a {
+    display: block;
+  }
+
+  div a .logo {
+    display: none;
+  }
+}
 body section .carro {
   display: flex;
   justify-content: center;
-}
-body section .imagencarousel {
-  height: 32rem;
 }
 body section .fit-item {
   height: 14rem;
@@ -105,10 +127,6 @@ body .section-tarjetas {
   background-color: whitesmoke;
   margin-top: 5%;
 }
-body .section-tarjetas .card {
-  width: 14rem;
-}
-
 header .fondo-logo, header .menu-sup ul {
   display: flex;
   text-align: center;
@@ -121,6 +139,19 @@ header .menu-sup ul li a, header .menu a {
   list-style: none;
 }
 
+@media only screen and (max-width: 576px) {
+  div.oferta a {
+    display: none;
+  }
+
+  nav.menu-sup ul li a {
+    display: block;
+  }
+
+  div a .logo {
+    display: none;
+  }
+}
 footer {
   text-align: center;
   font-size: 20px;
@@ -152,7 +183,7 @@ footer #quienes-somos:hover {
   color: white;
 }
 footer #copyRight {
-  font-size: 10px;
+  font-size: 8px;
   padding-top: 2%;
 }
 footer .redes-sociales {
@@ -180,6 +211,19 @@ header .menu-sup ul li a, header .menu a {
   list-style: none;
 }
 
+@media only screen and (max-width: 576px) {
+  div.oferta a {
+    display: none;
+  }
+
+  nav.menu-sup ul li a {
+    display: block;
+  }
+
+  div a .logo {
+    display: none;
+  }
+}
 body .sucursal {
   font-size: 50px;
   text-align: center;
@@ -209,6 +253,19 @@ header .menu-sup ul li a, header .menu a {
   list-style: none;
 }
 
+@media only screen and (max-width: 576px) {
+  div.oferta a {
+    display: none;
+  }
+
+  nav.menu-sup ul li a {
+    display: block;
+  }
+
+  div a .logo {
+    display: none;
+  }
+}
 section .parrafo-section {
   padding-top: 3rem;
   padding-bottom: 3rem;

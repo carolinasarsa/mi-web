@@ -27,7 +27,7 @@
 <link href = "https: //fonts.googleapis.com/css2? family = Nunito: wght @ 700 & display = swap "rel =" stylesheet ">
 </head>
 <body>
-  <header>
+  <header class="container-fluid">
     <nav class="d-flex row menu-sup">
         <ul>
             <li><a href="sucursales.html" class="encabezado-sup"> Sucursales</a></li>
@@ -43,28 +43,26 @@
               <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="search">
               <button class="btn btn-outline-secondary btn btn-light" type="submit">Buscar</button>
             </form>
-            <div class="col-md-3">
+            <div class="col-md-3 oferta">
               <a href="ofertas.html" class="link-ofertas"><p class="oferta-sup">¡Aprovechá las mejores ofertas!</p></a>
               </div>
     </div>
     </div> 
-    <div class="d-flex row">
-    <nav class="menu navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="menu navbar navbar-expand-lg navbar-light bg-light row">
       <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="d-flex justify-content-center collapse navbar-collapse " id="navbarNavAltMarkup">
-          <div class=" navbar-nav">
-            <a class=" nav-link "href="lineafit.html">Línea fitnesas</a>
-            <a class=" nav-link" href="encasa.html">Entrená en casa</a>
-            <a class=" nav-link" href="maquinas.html">Máquinas</a>
-            <a class=" nav-link" href="ofertas.html">Ofertas</a>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" aria-current="page" href="lineafit.html">Línea fitnesas</a>
+            <a class="nav-link" href="encasa.html" >Entrená en casa</a>
+            <a class="nav-link" href="maquinas.html">Máquinas</a>
+            <a class="nav-link" href="ofertas.html">Ofertas</a>
           </div>
         </div>
       </div>
     </nav>
-  </div>
 </header>
     <section class="container">
       <div class="container fs-5 parrafo-section text-center">
@@ -72,7 +70,7 @@
         <p class="lh-1 parrafo"> Elegí los equipos que mejor se adapten a tu entrenamiento </p>
       </div>
       <div class="row">
-        <div class="col-lg-3 col-md-6 col-12 ">
+        <div class="col-lg-3 col-md-6 col-12 d-flex justify-content-center">
                 <div class="card">
                     <img src="https://i.ibb.co/c6b6V5M/banco-multi.png" class="card-img-top fit-item" alt="banco multiestaciones">
                     <div class="card-body">
@@ -82,7 +80,7 @@
                     </div>
                 </div>
         </div>
-        <div class="col-lg-3 col-md-6 col-12">
+        <div class="col-lg-3 col-md-6 col-12 d-flex justify-content-center">
                   <div class="card">
                     <img src="https://i.ibb.co/Jq36MBX/barra-de-dominadas-para-pared.jpg" class="card-img-top fit-item" alt="barra de dominadas para pared">
                     <div class="card-body">
@@ -92,7 +90,7 @@
                     </div>
                   </div>
         </div>
-        <div class="col-lg-3 col-md-6 col-12">
+        <div class="col-lg-3 col-md-6 col-12 d-flex justify-content-center">
                   <div class="card">
                     <img src="https://i.ibb.co/S32c6vW/silla-romana-cross-training.webp" class="card-img-top fit-item" alt="silla romana para cross training">
                     <div class="card-body">
@@ -102,7 +100,7 @@
                     </div>
                   </div>
         </div>
-                <div class="col-lg-3 col-md-6 col-12">
+                <div class="col-lg-3 col-md-6 col-12 d-flex justify-content-center">
                   <div class="card">
                     <img src="https://i.ibb.co/1TfYb7c/banco-musculacion-plegable-inclinable.webp" class="card-img-top fit-item" alt="banco de musculacion plegable e inclinable">
                     <div class="card-body">
@@ -112,7 +110,7 @@
                     </div>
                   </div>
                   </div>
-                  <div class="col-lg-3 col-md-6 col-12">
+                  <div class="col-lg-3 col-md-6 col-12 d-flex justify-content-center">
                 <div class="card">
                     <img src="https://i.ibb.co/3cVmvS9/maquina-multiestaciones-musculacion.webp" class="card-img-top fit-item" alt="maquina multiestaciones para musculacion">
                     <div class="card-body">
@@ -122,7 +120,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-12">
+                <div class="col-lg-3 col-md-6 col-12 d-flex justify-content-center">
                   <div class="card">
                     <img src="https://i.ibb.co/7K35vnK/banco-pres-plano.webp" class="card-img-top fit-item" alt="banco pres plano">
                     <div class="card-body">
@@ -132,7 +130,7 @@
                     </div>
                   </div>
                 </div>
-                  <div class="col-lg-3 col-md-6 col-12">
+                  <div class="col-lg-3 col-md-6 col-12 d-flex justify-content-center">
                   <div class="card">
                     <img src="https://i.ibb.co/c2QK5dg/gym-sport.webp" class="card-img-top fit-item" alt=" maquina de gym-sport">
                     <div class="card-body">
@@ -142,7 +140,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-12">
+                <div class="col-lg-3 col-md-6 col-12 d-flex justify-content-center">
                   <div class="card">
                     <img src="https://i.ibb.co/Qm5dpZT/bicicleta-aire.jpg" class="card-img-top fit-item" alt="bicicleta fija ">
                     <div class="card-body">
