@@ -114,19 +114,38 @@ body section .carro {
   display: flex;
   justify-content: center;
 }
-body section .fit-item {
-  height: 14rem;
-  transition-duration: 0.1s;
+body section .card-body {
+  display: flex;
+  flex-direction: column;
 }
-body section .fit-item:hover {
-  transform: scale(1.1);
-  transition: all;
-  transition-duration: 0.1s;
+body section .card-body .btn {
+  margin-top: auto;
+}
+body section .card {
+  border-radius: 8px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: all 0.25s;
+}
+body section .card:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+body section .boton-consultar {
+  color: #fd8103;
+  border: 2px solid #fd8103;
+  border-radius: 50px;
+  text-align: center;
+}
+body section .boton-consultar:hover {
+  background-color: #fd8103;
+  color: white;
 }
 body .section-tarjetas {
   background-color: whitesmoke;
   margin-top: 5%;
 }
+
 header .fondo-logo, header .menu-sup ul {
   display: flex;
   text-align: center;
