@@ -1,35 +1,36 @@
 @import '../base/listas';
 @import '../base/extends';
 @import '../base/variables';
-@media only screen and (max-width: 576px){
-    div.oferta a{
+
+@media only screen and (max-width: 576px) {
+    div.oferta a {
         display: none;
     }
-    nav.menu-sup ul li a{
-        display:block;
+
+    nav.menu-sup ul li a {
+        display: block;
     }
-    div a .logo{
-        display: none;
-        
-    }
+
 }
 
-
-body{
-    .sucursal{
+/*SECTION SUCURSALES*/
+body {
+    .sucursal {
         font-size: 50px;
-        text-align:nth($justify,1);
-        padding:40px 40px 40px 40px;
+        text-align: nth($justify, 1);
+        padding: 40px 40px 40px 40px;
         font-family: $fuentenunito;
     }
-    .sucursal-sub{
-        text-align:nth($justify,1);
-        padding: 40px 40px 40px 40px ;
-        font-family:$fuentenunito;
-        color:nth($colores,1);
+
+    .sucursal-sub {
+        text-align: nth($justify, 1);
+        padding: 40px 40px 40px 40px;
+        font-family: $fuentenunito;
+        color: nth($colores, 1);
     }
-    .sucursal-container{
+
+    .sucursal-container {
         display: flex;
-        justify-content: nth($justify,2);
+        justify-content: nth($justify, 2);
     }
 }

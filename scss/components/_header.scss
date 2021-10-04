@@ -5,84 +5,93 @@
 
 @media only screen and (max-width: 576px) {
     div.oferta a {
-      display: none;
+        display: none;
     }
-    nav.menu-sup ul li a {
-        display:block;
-    }
-    div a .logo{
-        display:none;
-    }
-  }
 
-*{
-    margin:0%;
-    padding: 0%;
+    nav.menu-sup ul li a {
+        display: block;
     }
-    header{
-        position: sticky;
-        top:0px;
-        z-index:10;
-    
-    .parrafo-uno{
+
+}
+
+/*HEADER Y MENU */
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+
+    .parrafo-uno {
         color: nth($colores, 1);
-        background-color: nth($colores,2);
+        background-color: nth($colores, 2);
         width: 100%;
-        text-align: nth($justify,1);
-        font-family:$fuentenunito;
-        margin:0%;
+        text-align: nth($justify, 1);
+        font-family: $fuentenunito;
+        margin: 0%;
         padding: 0%;
     }
-    .logo{
+
+    .logo {
         height: 40px;
     }
-    .fondo-logo{
-        background-color: nth($colores,3);
+
+    .fondo-logo {
+        background-color: nth($colores, 3);
         padding-top: 15px;
         padding-bottom: 15px;
         @extend %flex;
-        justify-content:nth($justify,2);
-    }
-    .oferta-sup{
-        display:flex;
-        color: nth($colores,4);
-        font-family: $fuentenunito;
-    }
-    .link-ofertas{
-        text-decoration: none;
-    }
-    
-        .menu-sup{
-        ul{ @extend %flex;
-            list-style-type: none;
-            justify-content: nth($justify,3);
-            font-family: $fuentenunito;
-            background-color: nth($colores,1);
-            margin-bottom: 0px;
-    li{
-        a{ @extend %links-a;
-            padding: 1em;
-            color: nth($colores,4);
-        }
-    }
-    }
-        }
-    .menu{
-    background-color: nth($colores,5);
-    display: flex;
-    justify-content:nth($justify,1);
-    background-image: linear-gradient(to bottom, grey , white);
-    margin-bottom: 0px;
-        a{
-        font-size: 20px;
-    
-        font-weight: 500;
-        @extend %links-a;
-        color: nth($colores,3);
-        font-family: $fuentenunito;
-        
-        display: inline-block;
-        }
-    }
+        justify-content: nth($justify, 2);
     }
 
+    .oferta-sup {
+        display: flex;
+        color: nth($colores, 4);
+        font-family: $fuentenunito;
+    }
+
+    .link-ofertas {
+        text-decoration: none;
+    }
+
+    .menu-sup {
+        ul {
+            @extend %flex;
+            list-style-type: none;
+            justify-content: nth($justify, 3);
+            font-family: $fuentenunito;
+            background-color: nth($colores, 1);
+            margin-bottom: 0px;
+
+            li {
+                a {
+                    @extend %links-a;
+                    padding: 1em;
+                    color: nth($colores, 4);
+                }
+            }
+        }
+    }
+
+    .menu {
+        background-color: nth($colores, 5);
+        display: flex;
+        justify-content: nth($justify, 1);
+        background-image: linear-gradient(to bottom, grey, white);
+        margin-bottom: 0px;
+
+        a {
+            font-size: 20px;
+
+            font-weight: 500;
+            @extend %links-a;
+            color: nth($colores, 3);
+            font-family: $fuentenunito;
+
+            display: inline-block;
+        }
+    }
+}
