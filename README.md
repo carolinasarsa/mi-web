@@ -1,6 +1,6 @@
 # mi-web
 <h1 align="center">Hi 👋, I'm Carolina Sarsa</h1>
-<h3 align="center">frontend developer in process!</h3>
+<h3 align="center">Developer in process!</h3>
 
 - 🔭 I’m currently working on **e-commerce web**
 
