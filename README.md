@@ -4,7 +4,7 @@
 
 - 🔭 I’m currently working on **e-commerce web**
 
-- 🌱 I’m currently learning **Desarrollo Web**
+- 🌱 I’m currently learning **.NET y Programación en la UTN**
 
 - 📫 How to reach me **caro.sarsa@gmail.com**
 
